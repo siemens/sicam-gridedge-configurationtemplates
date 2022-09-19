@@ -1,0 +1,15 @@
+# ORNO OR-WE-515: Single-phase Meter 
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+Frequency;1;Holding;305;MV;Hz;Int16;;0.01
+Voltage;1;Holding;306;MV;V;Int16;;0.01
+ReqBorder1;1;Holding;307;Border;;;;
+Current;1;Holding;314;MV;A;UInt32;;0.001
+ReqBorder2;1;Holding;316;Border;;;;
+Active Power;1;Holding;321;MV;kW;Int32;;0.001
+ReqBorder3;1;Holding;323;Border;;;;
+Reactive Power;1;Holding;329;MV;kvar;Int32;;0.001
+ReqBorder4;1;Holding;331;Border;;;;
+Active Energy;1;Holding;40961;Counter;kWh;UInt32;;0.01
+ReqBorder5;1;Holding;40963;Border;;;;
+Reactive Energy;1;Holding;40991;Counter;kvarh;UInt32;;0.01

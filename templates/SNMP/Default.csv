@@ -1,0 +1,16 @@
+Name;Address;Type;DefaultValue;Mapping
+VendorName;;Single;Siemens;VendorName
+DeviceName;1.3.6.1.2.1.1.5.0;Single;SNMPDevice;HwProduct.0/ProdCompName
+Location;1.3.6.1.2.1.1.6.0;Single;;LocationName
+HardwareId;;Single;;AssetUuid
+DeviceFamily;;Single;Default;DeviceFamily
+DeviceModel;;Single;;DeviceModel
+SerialNumber;;Single;;HwProduct.0/ProdCompSerialNumber
+OrderNumber;;Single;;HwProduct.0/ProdCompOrderNumber
+HwVersion;;Single;;HwProduct.0/ProdCompVersion
+FwVersion;;Single;;FwSwComponent.0/ProdCompVersion
+FwName;;Single;Device Firmware;FwSwComponent.0/ProdCompName
+FwDescription;;Single;Device Firmware;FwSwComponent.0/ProdCompDescription
+SwVersion;;Single;;FwSwComponent.1/ProdCompVersion
+SwName;;Single;Device Software;FwSwComponent.1/ProdCompName
+SwDescription;;Single;Device Software;FwSwComponent.1/ProdCompDescription

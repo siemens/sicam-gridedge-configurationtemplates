@@ -1,0 +1,15 @@
+Name;Address;Type;DefaultValue;Mapping
+DeviceName;1.3.6.1.2.1.1.5.0;Single;SNMPDevice;DeviceName
+Location;1.3.6.1.4.1.22638.11.1.1.4.0;Single;;LocationName
+HardwareId;1.3.6.1.4.1.22638.11.1.1.2.0;Single;;AssetUuid
+VendorName;1.3.6.1.4.1.22638.11.1.1.1.0;Single;Siemens;VendorName
+DeviceFamily;;Single;SICAM A8000;DeviceFamily
+DeviceModel;1.3.6.1.2.1.1.1.0;Single;;DeviceModel
+CompContainedIn;1.3.6.1.4.1.22638.11.1.2.1.1.2;Multiple;;ProductCompTable/ProdCompContainedIn
+ProdCompClass;1.3.6.1.4.1.22638.11.1.2.1.1.3;Multiple;;ProductCompTable/ProdCompClass
+ProdCompName;1.3.6.1.4.1.22638.11.1.2.1.1.4;Multiple;;ProductCompTable/ProdCompName
+ProdCompDescription;1.3.6.1.4.1.22638.11.1.2.1.1.5;Multiple;;ProductCompTable/ProdCompDescription
+ProdCompOrderNumber;1.3.6.1.4.1.22638.11.1.2.1.1.6;Multiple;;ProductCompTable/ProdCompOrderNumber
+ProdCompSerialNumber;1.3.6.1.4.1.22638.11.1.2.1.1.7;Multiple;;ProductCompTable/ProdCompSerialNumber
+ProdCompVersion;1.3.6.1.4.1.22638.11.1.2.1.1.8;Multiple;;ProductCompTable/ProdCompVersion
+ProdCompHwSlot;1.3.6.1.4.1.22638.11.1.2.1.1.9;Multiple;;ProductCompTable/ProdCompHwSlot

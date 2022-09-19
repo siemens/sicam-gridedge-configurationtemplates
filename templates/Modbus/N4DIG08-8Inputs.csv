@@ -1,0 +1,11 @@
+# N4DIG08 configured as 8 Input Channels Function: 8 Channel Digital Input Module
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+DI-1;1;Holding;130;SPS;;1Bit;0;;
+DI-2;1;Holding;131;SPS;;1Bit;0;;
+DI-3;1;Holding;132;SPS;;1Bit;0;;
+DI-4;1;Holding;133;SPS;;1Bit;0;;
+DI-5;1;Holding;134;SPS;;1Bit;0;;
+DI-6;1;Holding;135;SPS;;1Bit;0;;
+DI-7;1;Holding;136;SPS;;1Bit;0;;
+DI-8;1;Holding;137;SPS;;1Bit;0;;

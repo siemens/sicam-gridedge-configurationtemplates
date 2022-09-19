@@ -1,0 +1,19 @@
+# Advantech ADAM-4051: 16 channel Digital Input Module
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+DI-0;1;CoilStatus;1;SPS;;1Bit;;
+DI-1;1;CoilStatus;2;SPS;;1Bit;;
+DI-2;1;CoilStatus;3;SPS;;1Bit;;
+DI-3;1;CoilStatus;4;SPS;;1Bit;;
+DI-4;1;CoilStatus;5;SPS;;1Bit;;
+DI-5;0;CoilStatus;6;SPS;;1Bit;;
+DI-6;0;CoilStatus;7;SPS;;1Bit;;
+DI-7;0;CoilStatus;8;SPS;;1Bit;;
+DI-8;0;CoilStatus;9;SPS;;1Bit;;
+DI-9;0;CoilStatus;10;SPS;;1Bit;;
+DI-10;0;CoilStatus;11;SPS;;1Bit;;
+DI-11;0;CoilStatus;12;SPS;;1Bit;;
+DI-12;0;CoilStatus;13;SPS;;1Bit;;
+DI-13;0;CoilStatus;14;SPS;;1Bit;;
+DI-14;0;CoilStatus;15;SPS;;1Bit;;
+DI-15;0;CoilStatus;16;SPS;;1Bit;;

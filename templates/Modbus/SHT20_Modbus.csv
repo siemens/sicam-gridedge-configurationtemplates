@@ -1,0 +1,5 @@
+# SHT20 Modbus (e.g. XY-MD02): Temperature and Humidity Sensor
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+Temperature;1;Input;2;MV;degC;Int16;;0.1;0.0
+Humidity;1;Input;3;MV;%RH;Int16;;0.1;0.0

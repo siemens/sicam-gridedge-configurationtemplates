@@ -1,0 +1,16 @@
+# SICAM GridEdge
+#
+# Modbus Data Mapping Example
+#
+# Lines starting with # are comments.
+# For further information and examples please refer to the user manual.
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+# Indications
+#Indication1;1;Coils;21;Indication;;1Bit;;;
+#Indication2;1;3;35;Indication;;1Bit;7;;
+# Measured values
+#MeasuredValue1;1;Holding;201;MV;Hz;Float32;;1.0;0.0
+#MeasuredValue2;1;Input;1407;MV;A;Int16;;0.01;0.0
+# Counters
+#Counter1;1;Holding;853;Counter;Wh;UInt32;;0.33;0.0

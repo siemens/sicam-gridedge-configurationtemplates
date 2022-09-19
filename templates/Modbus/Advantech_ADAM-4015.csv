@@ -1,0 +1,23 @@
+# Advantech ADAM-4015: 6-channel RTD Input Module
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+RTD-Ch0_BurnOut;1;Coils;201;Indication;;1Bit;;;
+RTD-Ch1_BurnOut;1;Coils;202;Indication;;1Bit;;;
+RTD-Ch2_BurnOut;1;Coils;203;Indication;;1Bit;;;
+RTD-Ch3_BurnOut;1;Coils;204;Indication;;1Bit;;;
+RTD-Ch4_BurnOut;1;Coils;205;Indication;;1Bit;;;
+RTD-Ch5_BurnOut;1;Coils;206;Indication;;1Bit;;;
+RTD-Ch6_BurnOut;1;Coils;207;Indication;;1Bit;;;
+RTD-Ch0;1;HoldingRegisters;1;MV;degC;Int16;;0.01;0.0
+RTD-Ch1;1;HoldingRegisters;2;MV;degC;Int16;;0.01;0.0
+RTD-Ch2;1;HoldingRegisters;3;MV;degC;Int16;;0.01;0.0
+RTD-Ch3;1;HoldingRegisters;4;MV;degC;Int16;;0.01;0.0
+RTD-Ch4;1;HoldingRegisters;5;MV;degC;Int16;;0.01;0.0
+RTD-Ch5;1;HoldingRegisters;6;MV;degC;Int16;;0.01;0.0
+RTD-Ch0_Enabled;1;HoldingRegisters;221;Indication;;1Bit;0;;
+RTD-Ch1_Enabled;1;HoldingRegisters;221;Indication;;1Bit;1;;
+RTD-Ch2_Enabled;1;HoldingRegisters;221;Indication;;1Bit;2;;
+RTD-Ch3_Enabled;1;HoldingRegisters;221;Indication;;1Bit;3;;
+RTD-Ch4_Enabled;1;HoldingRegisters;221;Indication;;1Bit;4;;
+RTD-Ch5_Enabled;1;HoldingRegisters;221;Indication;;1Bit;5;;
+RTD-Ch6_Enabled;1;HoldingRegisters;221;Indication;;1Bit;6;;

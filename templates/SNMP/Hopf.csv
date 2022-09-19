@@ -1,0 +1,11 @@
+Name;Address;Type;DefaultValue;Mapping
+VendorName;;Single;Hopf;VendorName
+DeviceName;1.3.6.1.2.1.1.5.0;Single;SNMPDevice;HwProduct.0/ProdCompName
+Location;1.3.6.1.2.1.1.6.0;Single;;LocationName
+DeviceFamily;;Single;Hopf;DeviceFamily
+DeviceModel;1.3.6.1.4.1.12527.20.1.1.0;Single;;DeviceModel
+SerialNumber;1.3.6.1.4.1.12527.20.1.3.0;Single;;HwProduct.0/ProdCompSerialNumber
+HwVersion;1.3.6.1.4.1.12527.20.1.6.0;Single;;HwProduct.0/ProdCompVersion
+FwVersion;1.3.6.1.4.1.12527.20.1.4.0;Single;;FwSwComponent.0/ProdCompVersion
+FwName;;Single;Device Firmware;FwSwComponent.0/ProdCompName
+FwDescription;;Single;Device Firmware;FwSwComponent.0/ProdCompDescription

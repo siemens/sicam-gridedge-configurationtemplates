@@ -1,0 +1,12 @@
+Name;Address;Type;DefaultValue;Mapping
+VendorName;1.3.6.1.2.1.1.1.0;Single;Meinberg;VendorName
+DeviceName;1.3.6.1.2.1.1.5.0;Single;M100;HwProduct.0/ProdCompName
+Location;1.3.6.1.2.1.1.6.0;Single;;LocationName
+HardwareId;;Single;;AssetUuid
+DeviceFamily;;Single;Meinberg;DeviceFamily
+DeviceModel;1.3.6.1.2.1.1.1.0;Single;M100;DeviceModel
+SerialNumber;1.3.6.1.4.1.5597.30.0.0.3.0;Single;;HwProduct.0/ProdCompSerialNumber
+HwVersion;1.3.6.1.4.1.5597.30.0.0.5.0;Single;;HwProduct.0/ProdCompVersion
+FwVersion;1.3.6.1.4.1.5597.30.0.0.2.0;Single;;FwSwComponent.0/ProdCompVersion
+FwName;;Single;Device Firmware;FwSwComponent.0/ProdCompName
+FwDescription;;Single;Device Firmware;FwSwComponent.0/ProdCompDescription

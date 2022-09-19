@@ -1,0 +1,59 @@
+# Brainboxes ED-549: Ethernet to Analog I/O with 8 Analog Inputs
+#
+# For the Analog Input values please uncomment one of the four following read options
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+# Analog inputs (as integer) read from Input register
+#AIn-0;0;Input;1;MV;V;Int16;;0.001
+#AIn-1;0;Input;2;MV;V;Int16;;0.001
+#AIn-2;0;Input;3;MV;V;Int16;;0.001
+#AIn-3;0;Input;4;MV;V;Int16;;0.001
+#AIn-4;0;Input;5;MV;V;Int16;;0.001
+#AIn-5;0;Input;6;MV;V;Int16;;0.001
+#AIn-6;0;Input;7;MV;V;Int16;;0.001
+#AIn-7;0;Input;8;MV;V;Int16;;0.001
+# Analog inputs (as integer) read from Holding register
+#AIn-0;0;Holding;1;MV;V;Int16;;0.001
+#AIn-1;0;Holding;2;MV;V;Int16;;0.001
+#AIn-2;0;Holding;3;MV;V;Int16;;0.001
+#AIn-3;0;Holding;4;MV;V;Int16;;0.001
+#AIn-4;0;Holding;5;MV;V;Int16;;0.001
+#AIn-5;0;Holding;6;MV;V;Int16;;0.001
+#AIn-6;0;Holding;7;MV;V;Int16;;0.001
+#AIn-7;0;Holding;8;MV;V;Int16;;0.001
+# Analog inputs (as float) read from Input register
+AIn-0;1;Input;33;MV;V;Float32_LE;;1
+AIn-1;1;Input;35;MV;V;Float32_LE;;1
+AIn-2;1;Input;37;MV;V;Float32_LE;;1
+AIn-3;1;Input;39;MV;V;Float32_LE;;1
+AIn-4;1;Input;41;MV;V;Float32_LE;;1
+AIn-5;1;Input;43;MV;V;Float32_LE;;1
+AIn-6;1;Input;45;MV;V;Float32_LE;;1
+AIn-7;1;Input;47;MV;V;Float32_LE;;1
+# Analog inputs (as float) read from Holding register
+#AIn-0;0;Holding;33;MV;V;Float32_LE;;1
+#AIn-1;0;Holding;35;MV;V;Float32_LE;;1
+#AIn-2;0;Holding;37;MV;V;Float32_LE;;1
+#AIn-3;0;Holding;39;MV;V;Float32_LE;;1
+#AIn-4;0;Holding;41;MV;V;Float32_LE;;1
+#AIn-5;0;Holding;43;MV;V;Float32_LE;;1
+#AIn-6;0;Holding;45;MV;V;Float32_LE;;1
+#AIn-7;0;Holding;47;MV;V;Float32_LE;;1
+# Input error flags (Discrete Inputs)
+AIn-0_Error;1;DiscreteInputs;1025;SPS;;1Bit;;
+AIn-1_Error;1;DiscreteInputs;1026;SPS;;1Bit;;
+AIn-2_Error;1;DiscreteInputs;1027;SPS;;1Bit;;
+AIn-3_Error;1;DiscreteInputs;1028;SPS;;1Bit;;
+AIn-4_Error;1;DiscreteInputs;1029;SPS;;1Bit;;
+AIn-5_Error;1;DiscreteInputs;1030;SPS;;1Bit;;
+AIn-6_Error;1;DiscreteInputs;1031;SPS;;1Bit;;
+AIn-7_Error;1;DiscreteInputs;1032;SPS;;1Bit;;
+# Input channel enabled (Coils)
+AIn-0_Enabled;1;Coils;65;SPS;;1Bit;;
+AIn-1_Enabled;1;Coils;66;SPS;;1Bit;;
+AIn-2_Enabled;1;Coils;67;SPS;;1Bit;;
+AIn-3_Enabled;1;Coils;68;SPS;;1Bit;;
+AIn-4_Enabled;1;Coils;69;SPS;;1Bit;;
+AIn-5_Enabled;1;Coils;70;SPS;;1Bit;;
+AIn-6_Enabled;1;Coils;71;SPS;;1Bit;;
+AIn-7_Enabled;1;Coils;72;SPS;;1Bit;;

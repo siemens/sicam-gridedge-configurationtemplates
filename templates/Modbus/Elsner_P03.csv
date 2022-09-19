@@ -1,0 +1,21 @@
+# elsner P03: Wheather Station
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+Temperature;1;Input;1;MV;degC;Int16;;0.1
+SunSensorSouth;1;Input;2;MV;klx;Int16;;1
+SunSensorWest;0;Input;3;MV;klx;Int16;;1
+SunSensorEast;0;Input;4;MV;klx;Int16;;1
+Light;1;Input;5;MV;lx;Int16;;1
+Wind;1;Input;6;MV;km/h;Int16;;0.02778
+Raining;1;Input;7;SPS;;1Bit;0;
+GPSValid;0;Input;7;SPS;;1Bit;8;
+DateTimeDay;0;Input;8;MV;;Int16;;1
+DateTimeMonth;0;Input;9;MV;;Int16;;1
+DateTimeYear;0;Input;10;MV;;Int16;;1
+DateTimeHour;0;Input;11;MV;h;Int16;;1
+DateTimeMinute;0;Input;12;MV;m;Int16;;1
+DateTimeSeconds;0;Input;13;MV;s;Int16;;1
+SunPosAzimut;0;Input;14;MV;deg;Int16;;0.1
+SunPosElevation;0;Input;15;MV;deg;Int16;;0.1
+LocationLongitude;0;Input;16;MV;deg;Int16;;0.01
+LocationLatitude;0;Input;17;MV;deg;Int16;;0.01

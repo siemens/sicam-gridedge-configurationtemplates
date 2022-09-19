@@ -1,0 +1,12 @@
+Name;Address;Type;DefaultValue;Mapping
+VendorName;1.3.6.1.2.1.1.1.0;Single;Siemens;VendorName
+DeviceName;1.3.6.1.2.1.1.5.0;Single;AK3;HwProduct.0/ProdCompName
+Location;1.3.6.1.2.1.1.6.0;Single;;LocationName
+DeviceFamily;1.3.6.1.2.1.1.1.0;Single;AK3;DeviceFamily
+DeviceModel;1.3.6.1.2.1.1.1.0;Single;AK3;DeviceModel
+SerialNumber;;Single;;HwProduct.0/ProdCompSerialNumber
+OrderNumber;1.3.6.1.2.1.1.1.0;Single;;HwProduct.0/ProdCompOrderNumber
+HwVersion;1.3.6.1.4.1.22638.7.1.2.1.1.7.1;Single;;HwProduct.0/ProdCompVersion
+FwVersion;1.3.6.1.4.1.22638.7.1.2.1.1.4;Multiple;;FwSwComponent.0/ProdCompVersion
+FwName;1.3.6.1.4.1.22638.7.1.2.1.1.3;Multiple;Device Firmware;FwSwComponent.0/ProdCompName
+FwDescription;1.3.6.1.4.1.22638.7.1.2.1.1.5;Multiple;Device Firmware;FwSwComponent.0/ProdCompDescription

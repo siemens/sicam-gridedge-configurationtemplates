@@ -1,0 +1,16 @@
+Name;Address;Type;DefaultValue;Mapping
+VendorName;;Single;Siemens;VendorName
+DeviceName;1.3.6.1.2.1.1.5.0;Single;SNMPDevice;HwProduct.0/ProdCompName
+Location;1.3.6.1.2.1.1.6.0;Single;;LocationName
+DeviceFamily;;Single;Ruggedcom;DeviceFamily
+DeviceModel;1.3.6.1.2.1.1.1.0;Single;;DeviceModel
+SerialNumber;1.3.6.1.4.1.15004.4.2.3.1.0;Single;;HwProduct.0/ProdCompSerialNumber
+OrderNumber;1.3.6.1.2.1.1.1.0;Single;;HwProduct.0/ProdCompOrderNumber
+HwVersion;1.3.6.1.4.1.15004.4.2.3.4.0;Single;;HwProduct.0/ProdCompVersion
+FwVersion;1.3.6.1.4.1.15004.4.2.3.3.0;Single;;FwSwComponent.0/ProdCompVersion
+FwName;;Single;ROS;FwSwComponent.0/ProdCompName
+FwDescription;;Single;Device Firmware;FwSwComponent.0/ProdCompDescription
+SwVersion;1.3.6.1.4.1.15004.4.2.3.2.0;Single;;FwSwComponent.1/ProdCompVersion
+SwName;;Single;Device Software;FwSwComponent.1/ProdCompName
+SwDescription;;Single;BootSWVersion;FwSwComponent.1/ProdCompDescription
+MacAddress;1.3.6.1.2.1.17.1.1.0;Single;;NetworkComponent.0/ProdNetworkCompMACAddr
