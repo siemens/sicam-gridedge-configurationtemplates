@@ -1,0 +1,12 @@
+# R4DCB08: 8-Channel 1-Wire DS18B20 Temperature Sensor Board 
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+Temp_1;1;Holding;1;MV;;Int16Inv80;0;0.1;0
+Temp_2;1;Holding;2;MV;;Int16Inv80;0;0.1;0
+Temp_3;1;Holding;3;MV;;Int16Inv80;0;0.1;0
+Temp_4;1;Holding;4;MV;;Int16Inv80;0;0.1;0
+Temp_5;1;Holding;5;MV;;Int16Inv80;0;0.1;0
+Temp_6;1;Holding;6;MV;;Int16Inv80;0;0.1;0
+Temp_7;1;Holding;7;MV;;Int16Inv80;0;0.1;0
+Temp_8;1;Holding;8;MV;;Int16Inv80;0;0.1;0
+
