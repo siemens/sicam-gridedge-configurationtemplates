@@ -194,8 +194,7 @@ configured to be not activated.
 
 | Column Name  | Range | Description |
 | ----------- | ----------- | ----------- |
-| DataObjectName | String, min. 1 and max. 128
-characters, All characters are allowed including slash (/) and backslash (\)., Data object names must be unique within a Modbus device., Data object name cannot start with a slash or a backslash, Data object name cannot end with a slash or a backslash, Slash and backslash characters represent a hierarchy, The data object name includes a maximum of 2 hierarchy parts, e.g., hierarchyPart1/hierarchyPart2/dataObjectName| Name of a data object that shall be read via Modbus |
+| DataObjectName | String, min. 1 and max. 128 characters, All characters are allowed including slash (/) and backslash (\)., Data object names must be unique within a Modbus device., Data object name cannot start with a slash or a backslash, Data object name cannot end with a slash or a backslash, Slash and backslash characters represent a hierarchy, The data object name includes a maximum of 2 hierarchy parts, e.g., hierarchyPart1/hierarchyPart2/dataObjectName| Name of a data object that shall be read via Modbus |
 | Activated | 0 or false: no, other than 0 or true: yes | Determines whether the data object shall be read by Modbus, evaluated, and transmitted to the cloud platform. The entries in the device template can contain the full amount of data that are offered from the device but not all might be of interest for further processing |
 | RegisterType | One of the following strings (not case sensitive): CoilStatus or Coils or 0, InputStatus or DiscreteInputs or 1, Input or InputRegisters or 3, Holding or HoldingRegisters or 4 | Register type to read from |
 | RegisterNumber | 1 to 65535 | Start register number of the data object in the register type |
