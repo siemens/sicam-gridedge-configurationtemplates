@@ -1,0 +1,20 @@
+# Advantech ADAM-4017: 8-channel Analog Input Module
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+
+AIn-Ch0;1;HoldingRegisters;1;MV;V;Int16;;0.01;0.0
+AIn-Ch1;1;HoldingRegisters;2;MV;V;Int16;;0.01;0.0
+AIn-Ch2;1;HoldingRegisters;3;MV;V;Int16;;0.01;0.0
+AIn-Ch3;1;HoldingRegisters;4;MV;V;Int16;;0.01;0.0
+AIn-Ch4;1;HoldingRegisters;5;MV;V;Int16;;0.01;0.0
+AIn-Ch5;1;HoldingRegisters;6;MV;V;Int16;;0.01;0.0
+AIn-Ch6;1;HoldingRegisters;7;MV;V;Int16;;0.01;0.0
+AIn-Ch7;1;HoldingRegisters;8;MV;V;Int16;;0.01;0.0
+AIn-Ch0_Enabled;1;HoldingRegisters;221;Indication;;1Bit;0;;
+AIn-Ch1_Enabled;1;HoldingRegisters;221;Indication;;1Bit;1;;
+AIn-Ch2_Enabled;1;HoldingRegisters;221;Indication;;1Bit;2;;
+AIn-Ch3_Enabled;1;HoldingRegisters;221;Indication;;1Bit;3;;
+AIn-Ch4_Enabled;1;HoldingRegisters;221;Indication;;1Bit;4;;
+AIn-Ch5_Enabled;1;HoldingRegisters;221;Indication;;1Bit;5;;
+AIn-Ch6_Enabled;1;HoldingRegisters;221;Indication;;1Bit;6;;
+AIn-Ch7_Enabled;1;HoldingRegisters;221;Indication;;1Bit;7;;
