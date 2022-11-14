@@ -7,7 +7,6 @@ RTD-Ch2_BurnOut;1;Coils;203;Indication;;1Bit;;;
 RTD-Ch3_BurnOut;1;Coils;204;Indication;;1Bit;;;
 RTD-Ch4_BurnOut;1;Coils;205;Indication;;1Bit;;;
 RTD-Ch5_BurnOut;1;Coils;206;Indication;;1Bit;;;
-RTD-Ch6_BurnOut;1;Coils;207;Indication;;1Bit;;;
 RTD-Ch0;1;HoldingRegisters;1;MV;degC;Int16;;0.01;0.0
 RTD-Ch1;1;HoldingRegisters;2;MV;degC;Int16;;0.01;0.0
 RTD-Ch2;1;HoldingRegisters;3;MV;degC;Int16;;0.01;0.0
@@ -20,4 +19,3 @@ RTD-Ch2_Enabled;1;HoldingRegisters;221;Indication;;1Bit;2;;
 RTD-Ch3_Enabled;1;HoldingRegisters;221;Indication;;1Bit;3;;
 RTD-Ch4_Enabled;1;HoldingRegisters;221;Indication;;1Bit;4;;
 RTD-Ch5_Enabled;1;HoldingRegisters;221;Indication;;1Bit;5;;
-RTD-Ch6_Enabled;1;HoldingRegisters;221;Indication;;1Bit;6;;
