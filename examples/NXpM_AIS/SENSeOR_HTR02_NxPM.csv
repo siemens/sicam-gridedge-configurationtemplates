@@ -1,0 +1,49 @@
+# SENSeOR HTR02_NxPM: Temperature and Partial Discharge Monitoring of Electrical Equipment (Switchgears)
+#					  for use with Siemens NX power monitor (NxPM)
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+#
+# SAW Sensor Temperature Measurement
+INC/GEN/BUS_TEMP_L1;1;Input;4;MV;degC;Int16;0;0.1;0
+INC/GEN/BUS_TEMP_L2;1;Input;5;MV;degC;Int16;0;0.1;0
+INC/GEN/BUS_TEMP_L3;1;Input;6;MV;degC;Int16;0;0.1;0
+INC/GEN/BUSHING_TEMP_L1;1;Input;7;MV;degC;Int16;0;0.1;0
+INC/GEN/BUSHING_TEMP_L2;1;Input;8;MV;degC;Int16;0;0.1;0
+INC/GEN/BUSHING_TEMP_L3;1;Input;9;MV;degC;Int16;0;0.1;0
+INC/GEN/CABLE_TEMP_L1;1;Input;10;MV;degC;Int16;0;0.1;0
+INC/GEN/CABLE_TEMP_L2;1;Input;11;MV;degC;Int16;0;0.1;0
+INC/GEN/CABLE_TEMP_L3;1;Input;12;MV;degC;Int16;0;0.1;0
+#
+ReqBorder1;1;Input;19;Border;;;;;
+#
+ReqBorder2;1;Input;36;Border;;;;;
+#
+# Environmental Data
+INC/GEN/AMB_TEMP;1;Input;37;MV;degC;Int16;0;0.1;0
+INC/GEN/CABLE_AMB_HUM;1;Input;38;MV;%rH;UInt16;0;0.1;0
+INC/GEN/DEW_POINT;1;Input;39;MV;degC;Int16;0;0.1;0
+#
+# Probe Antenna Alarms and Measurements
+INC/GEN/BUS_Alarm_Status;1;Input;1000;Indication;;1Bit;5;0;0
+INC/GEN/BUS_LFB_Ratio;1;Input;1001;MV;dB;UInt16;0;0.1;0
+INC/GEN/BUS_LFB_EPPC;1;Input;1002;MV;peaks/cycle;UInt16;0;0.1;0
+INC/GEN/BUS_MFB_Ratio;1;Input;1004;MV;dB;UInt16;0;0.1;0
+INC/GEN/BUS_MFB_EPPC;1;Input;1005;MV;peaks/cycle;UInt16;0;0.1;0
+INC/GEN/BUS_HFB_Ratio;1;Input;1007;MV;dB;UInt16;0;0.1;0
+INC/GEN/BUS_HFB_EPPC;1;Input;1008;MV;peaks/cycle;UInt16;0;0.1;0
+#
+INC/GEN/CAB_Alarm_Status;1;Input;1013;Indication;;1Bit;5;0;0
+INC/GEN/CAB_LFB_Ratio;1;Input;1014;MV;dB;UInt16;0;0.1;0
+INC/GEN/CAB_LFB_EPPC;1;Input;1015;MV;peaks/cycle;UInt16;0;0.1;0
+INC/GEN/CAB_MFB_Ratio;1;Input;1017;MV;dB;UInt16;0;0.1;0
+INC/GEN/CAB_MFB_EPPC;1;Input;1018;MV;peaks/cycle;UInt16;0;0.1;0
+INC/GEN/CAB_HFB_Ratio;1;Input;1020;MV;dB;UInt16;0;0.1;0
+INC/GEN/CAB_HFB_EPPC;1;Input;1021;MV;peaks/cycle;UInt16;0;0.1;0
+#
+INC/GEN/CB_Alarm_Status;1;Input;1026;Indication;;1Bit;5;0;0
+INC/GEN/CB_LFB_Ratio;1;Input;1027;MV;dB;UInt16;0;0.1;0
+INC/GEN/CB_LFB_EPPC;1;Input;1028;MV;peaks/cycle;UInt16;0;0.1;0
+INC/GEN/CB_MFB_Ratio;1;Input;1029;MV;dB;UInt16;0;0.1;0
+INC/GEN/CB_MFB_EPPC;1;Input;1030;MV;peaks/cycle;UInt16;0;0.1;0
+INC/GEN/CB_HFB_Ratio;1;Input;1031;MV;dB;UInt16;0;0.1;0
+INC/GEN/CB_HFB_EPPC;1;Input;1032;MV;peaks/cycle;UInt16;0;0.1;0

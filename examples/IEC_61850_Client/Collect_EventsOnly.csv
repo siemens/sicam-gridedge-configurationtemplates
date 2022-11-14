@@ -1,0 +1,10 @@
+# Collect only Events from IEC 61850 connected devices with SICAM GridEdge
+# Please Ensure to disable the SIEMENS Grid Diagnostic Suite Profile
+IedName;Source;Replacement
+.*;.*/LLN0\$ST\$Health;
+.*;.*/.*PTRC.*\$ST\$(Str|Tr);
+.*;.*/HTSP_PTTR.*\$ST\$(HSTWarn|HSTAlm);
+.*;.*/.*SCBR.*\$ST\$(SumIx.*|SumI2t.*|Endu.*);
+.*;.*/.*XCBR.*\$ST\$(Pos|OpCnt|OpCntPhs.*);
+.*;.*/.*XSWI.*\$ST\$(Pos|OpCnt);
+.*;.*/.*RREC.*\$ST\$(Successful|BlkBinInp|BlkCBsup|BlkStrtSup|BlkActTm|BlkDTexp|BlkDTdlyEx|BlkEvolFlt|BlkMatchCy|BlkByProt|BlkDLC|BlkVltFail|BlkMaxCyc);
