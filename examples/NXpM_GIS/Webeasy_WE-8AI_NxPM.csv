@@ -1,0 +1,15 @@
+# Webeasy_WE-8AI_NxPM: 8 Multi-function analog inputs (10 V, 20 mA, RTD PT1000 or NI1000),
+#                      Temperature Monitoring of Electrical Equipment in Gas Insulated Switchgears
+#				       for use with Siemens NX power monitor (NxPM)
+#
+DataObjectName;Activated;RegisterType;RegisterNumber;DataType;Unit;DataFormatOnBus;BitOffset;ScalingFactor;ScalingOffset
+#
+# Sensor Temperature Measurement
+INC/GEN/RTD1;1;Holding;101;MV;degC;Int16;0;0.1;0
+INC/GEN/RTD2;1;Holding;102;MV;degC;Int16;0;0.1;0
+INC/GEN/RTD3;1;Holding;103;MV;degC;Int16;0;0.1;0
+INC/GEN/RTD4;1;Holding;104;MV;degC;Int16;0;0.1;0
+INC/GEN/RTD5;1;Holding;105;MV;degC;Int16;0;0.1;0
+INC/GEN/RTD6;1;Holding;106;MV;degC;Int16;0;0.1;0
+INC/GEN/RTD7;1;Holding;107;MV;degC;Int16;0;0.1;0
+INC/GEN/RTD8;1;Holding;108;MV;degC;Int16;0;0.1;0
