@@ -1,15 +1,15 @@
 Name;Address;Type;DefaultValue;Mapping
-PCVendor;select manufacturer from win32_computersystem;Single;;VendorName
-MACAddress;select caption,description,macaddress,ipaddress from win32_networkadapterconfiguration;Single;;NetworkComponent.0/ProdNetworkCompMACAddr
-DeviceName;select name from win32_computersystem;Single;;HwProduct/ProdCompName
-DeviceFamily;select systemtype from win32_computersystem;Single;Windows;DeviceFamily
-DeviceModel;select model from win32_computersystem;Single;;DeviceModel
-SerialNumber;select serialnumber from win32_bios;Single;;HwProduct/ProdCompSerialNumber
-OSVersion;select version from win32_operatingsystem;Single;;FwSwComponent.0/ProdCompVersion
-OSName;select name from win32_operatingsystem;Single;;FwSwComponent.0/ProdCompName
-OSVendor;select manufacturer from win32_operatingsystem;Single;;FwSwComponent.0/ProdCompVendorName
-SwVendor;select vendor from win32_product where vendor like '%siemens%' or name like '%.net runtime%';Multiple;;FwSwComponent.1/ProdCompVendorName
-SwVersion;select version from win32_product where vendor like '%siemens%' or name like '%.net runtime%';Multiple;;FwSwComponent.1/ProdCompVersion
-SwName;select name from win32_product where vendor like '%siemens%' or name like '%.net runtime%';Multiple;;FwSwComponent.1/ProdCompName
-WindowsPatchVersion;select HotFixID from win32_quickfixengineering;Multiple;;FwSwComponent.2/ProdCompVersion
-WindowsPatchName;select Description from win32_quickfixengineering;Multiple;;FwSwComponent.2/ProdCompName
+PCVendor;computersystem get manufacturer;Single;;VendorName
+MACAddress;nicconfig get caption,description,macaddress,ipaddress;Single;;NetworkComponent.0/ProdNetworkCompMACAddr
+DeviceName;computersystem get name;Single;;HwProduct/ProdCompName
+DeviceFamily;computersystem get systemtype;Single;Windows;DeviceFamily
+DeviceModel;computersystem get model;Single;;DeviceModel
+SerialNumber;bios get serialnumber;Single;;HwProduct/ProdCompSerialNumber
+OSVersion;os get version;Single;;FwSwComponent.0/ProdCompVersion
+OSName;os get name;Single;;FwSwComponent.0/ProdCompName
+OSVendor;os get manufacturer;Single;;FwSwComponent.0/ProdCompVendorName
+SwVendor;product where \"Vendor like '%Siemens%' or Name like '%.net runtime%'\" get vendor;Multiple;;FwSwComponent.1/ProdCompVendorName
+SwVersion;product where \"Vendor like '%Siemens%' or Name like '%.net runtime%'\" get version;Multiple;;FwSwComponent.1/ProdCompVersion
+SwName;product where \"Vendor like '%Siemens%' or Name like '%.net runtime%'\" get name;Multiple;;FwSwComponent.1/ProdCompName
+WindowsPatchVersion; qfe get hotfixid;Multiple;;FwSwComponent.2/ProdCompVersion
+WindowsPatchName; qfe get description;Multiple;;FwSwComponent.2/ProdCompName
