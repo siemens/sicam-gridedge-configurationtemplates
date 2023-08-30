@@ -1,0 +1,15 @@
+Name;Address;Type;DefaultValue;Mapping
+PCVendor;computersystem get manufacturer;Single;;VendorName
+MACAddress;nicconfig get caption,description,macaddress,ipaddress;Single;;NetworkComponent.0/ProdNetworkCompMACAddr
+DeviceName;computersystem get name;Single;;HwProduct/ProdCompName
+DeviceFamily;computersystem get systemtype;Single;Windows;DeviceFamily
+DeviceModel;computersystem get model;Single;;DeviceModel
+SerialNumber;bios get serialnumber;Single;;HwProduct/ProdCompSerialNumber
+OSVersion;os get version;Single;;FwSwComponent.0/ProdCompVersion
+OSName;os get name;Single;;FwSwComponent.0/ProdCompName
+OSVendor;os get manufacturer;Single;;FwSwComponent.0/ProdCompVendorName
+SwVendor;product where \"Vendor like '%Siemens%' or Name like '%.net runtime%'\" get vendor;Multiple;;FwSwComponent.1/ProdCompVendorName
+SwVersion;product where \"Vendor like '%Siemens%' or Name like '%.net runtime%'\" get version;Multiple;;FwSwComponent.1/ProdCompVersion
+SwName;product where \"Vendor like '%Siemens%' or Name like '%.net runtime%'\" get name;Multiple;;FwSwComponent.1/ProdCompName
+WindowsPatchVersion; qfe get hotfixid;Multiple;;FwSwComponent.2/ProdCompVersion
+WindowsPatchName; qfe get description;Multiple;;FwSwComponent.2/ProdCompName
